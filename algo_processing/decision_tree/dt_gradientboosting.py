@@ -5,7 +5,7 @@ def DT_GradientBoosting(X_train, X_test, Y_train, Y_test):
 
     from sklearn.ensemble import GradientBoostingClassifier
 
-    gradboost = GradientBoostingClassifier(n_estimators=100, loss='deviance', criterion='squared_error', learning_rate=1)
+    gradboost = GradientBoostingClassifier(n_estimators=100, loss='exponential', criterion='squared_error', learning_rate=1)
 
     gradboost.fit(X_train, Y_train)
 
