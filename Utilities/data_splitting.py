@@ -7,7 +7,6 @@ def DataSplitting(df2):
         X = df2.iloc[:, :-1].values  # Independent
         pd.set_option('display.max_columns', None)
         Y = df2.iloc[:, -1].values  # Dependent
-        # print(X, "\n", Y)
 
         # Splitting Data into Training set and Test set.
         X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=1)
@@ -17,8 +16,6 @@ def DataSplitting(df2):
         print("<----------------------------------------------------------------------------------------------------------->")
 
         # Calling FeatureScaling Class
-
-
         li_Fs_Data = apply_feature_scaling(X_train, X_test, Y_train, Y_test)
         return li_Fs_Data
 

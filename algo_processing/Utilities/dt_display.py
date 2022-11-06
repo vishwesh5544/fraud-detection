@@ -5,4 +5,5 @@ def DT_Display(dt_gb_values, dt_Ab_values, dt_b_values):
     print("Precision Score       :              ", dt_gb_values[1][0], "\t\t\t\t\t", dt_Ab_values[1][0],"\t\t\t\t",dt_b_values[1][0], "\n")
     print("Recall Score          :              ", dt_gb_values[1][1], "\t\t\t\t\t", dt_Ab_values[1][1],"\t\t\t\t\t",dt_b_values[1][1],"\n")
     print("Accuracy Score        :              ", dt_gb_values[1][2], "\t\t\t\t\t", dt_Ab_values[1][2],"\t\t\t\t",dt_b_values[1][2],"\n")
+    print("F1_score              :              ", dt_gb_values[1][3], "\t\t\t\t\t", dt_Ab_values[1][3], "\t\t\t\t",dt_b_values[1][3], "\n")
 
