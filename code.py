@@ -46,7 +46,7 @@ class Code:
         nb_b_values = NbBagging(dataF[0], dataF[1], dataF[2], dataF[3])
         dt_b_values = DtBagging(dataF[0], dataF[1], dataF[2], dataF[3])
 
-        ### <--- Displaying Optimazation Results. --->
+        ### <--- Displaying Optimization Results. --->
 
         NB_Display(nb_gb_values, nb_Ab_values, nb_b_values)
         DT_Display(dt_gb_values, dt_Ab_values, dt_b_values)

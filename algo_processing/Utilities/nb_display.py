@@ -5,3 +5,4 @@ def NB_Display(nb_gb_values, nb_Ab_values, nb_b_values):
     print("Precision Score       :              ", nb_gb_values[1][0], "\t\t\t\t", nb_Ab_values[1][0],"\t\t\t\t\t\t\t\t",nb_b_values[1][0], "\n")
     print("Recall Score          :              ", nb_gb_values[1][1], "\t\t\t\t", nb_Ab_values[1][1],"\t\t\t\t",nb_b_values[1][1], "\n")
     print("Accuracy Score        :              ", nb_gb_values[1][2], "\t\t\t\t", nb_Ab_values[1][2],"\t\t\t\t",nb_b_values[1][2], "\n")
+    print("F1_score              :              ", nb_gb_values[1][3], "\t\t\t\t", nb_Ab_values[1][3], "\t\t\t\t",nb_b_values[1][3], "\n")

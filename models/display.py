@@ -9,6 +9,7 @@ def Display(NB_Values, DT_Values):
         print("Precision Score       :                  ", NB_Values[1][0], "\t\t\t", DT_Values[1][0], "\n")
         print("Recall Score          :                  ", NB_Values[1][1], "\t\t\t", DT_Values[1][1], "\n")
         print("Accuracy Score        :                  ", NB_Values[1][2], "\t\t\t", DT_Values[1][2], "\n")
+        print("F1_Score              :                  ", NB_Values[1][3], "\t\t\t", DT_Values[1][3], "\n")
 
         print("<----------------------------------------------------------------------------------------------------------->\n")
 

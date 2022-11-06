@@ -9,7 +9,7 @@ def DT_GradientBoosting(X_train, X_test, Y_train, Y_test):
 
     gradboost.fit(X_train, Y_train)
 
-    dt_pca = PrecisionRecallAccuracy(gradboost, X_train, X_test, Y_train, Y_test, "adaBoosting using (Naive Bayes)")
+    dt_pca = PrecisionRecallAccuracy(gradboost, X_train, X_test, Y_train, Y_test, "Gradient boosting")
     dt_cm = ConfusionMatrix(gradboost, X_test, Y_test)
 
     mt_dt_Values = []
